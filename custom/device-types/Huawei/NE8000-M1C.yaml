@@ -1,0 +1,15 @@
+manufacturer: Huawei
+model: NetEngine 8000 M1C
+slug: huawei-netengine-8000-m1c
+u_height: 1
+is_full_depth: false
+airflow: left-to-right
+comments: |
+  Huawei NetEngine 8000 M1C compact service router.
+
+  Physical dimensions:
+  - Width: 442 mm
+  - Depth: 220 mm
+  - Height: 44.5 mm (1U)
+
+  The exact interface and power configuration depends on the hardware variant.
