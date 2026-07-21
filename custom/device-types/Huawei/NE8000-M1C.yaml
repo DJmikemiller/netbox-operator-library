@@ -4,6 +4,7 @@ slug: huawei-netengine-8000-m1c
 u_height: 1
 is_full_depth: false
 airflow: left-to-right
+
 comments: |
   Huawei NetEngine 8000 M1C compact service router.
 
@@ -13,3 +14,15 @@ comments: |
   - Height: 44.5 mm (1U)
 
   The exact interface and power configuration depends on the hardware variant.
+
+power-ports:
+  - name: PWR1
+    type: iec-60320-c14
+
+  - name: PWR2
+    type: iec-60320-c14
+
+console-ports:
+  - name: ETH/OAM
+    type: rj-45
+    description: Combined 10/100M Ethernet management and non-standard RS232 console port
